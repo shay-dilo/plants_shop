@@ -71,7 +71,7 @@ export default function PaypalPaymenT() {
    
     return(
     <div> 
-        <div   >
+        <div style={{position:'sticky'}}  >
             <PaypalButton  
             total={total}
             tranSuccess={tranSuccess} />

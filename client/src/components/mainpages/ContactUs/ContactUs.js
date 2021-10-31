@@ -41,16 +41,16 @@ export default function ContactUs() {
                  </div>
                     <div className="w3-container">
                         <div>
-                            <input type="text" className="w3-input w3-border w3-transparent" placeholder="Name" name="name"/>
+                            <input type="text" className="w3-input w3-border w3-transparent" placeholder="Name" name="name" required/>
                         </div>
                         <div>
-                            <input type="email" className="w3-input w3-border w3-transparent" placeholder="Email Address" name="email"/>
+                            <input type="email" className="w3-input w3-border w3-transparent" placeholder="Email Address" name="email" required/>
                         </div>
                         <div>
-                            <input type="text" className="w3-input w3-border w3-transparent" placeholder="Subject" name="subject"/>
+                            <input type="text" className="w3-input w3-border w3-transparent" placeholder="Subject" name="subject" required/>
                         </div>
                         <div>
-                            <textarea className="w3-input w3-border w3-transparent" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
+                            <textarea className="w3-input w3-border w3-transparent" id="" cols="30" rows="8" placeholder="Your message" name="message" required></textarea>
                         </div>
                         <div>
                             <input type="submit" className="w3-btn w3-transparent" value="Send Message" ></input>

@@ -88,29 +88,29 @@ export default function OrderContinue() {
                  </div>
                     <div className="w3-container" > 
                         <div>
-                            <input type="text" className="w3-input w3-border w3-white w3-transparent" placeholder="First Name" name="firstName"/>
+                            <input type="text" className="w3-input w3-border w3-white w3-transparent" placeholder="First Name" name="firstName" required/>
                         </div>
                         <div>
-                            <input type="text" className="w3-input w3-border w3-white w3-transparent" placeholder="Last Name" name="LastName"/>
+                            <input type="text" className="w3-input w3-border w3-white w3-transparent" placeholder="Last Name" name="LastName" required/>
                         </div>
                         <div>
-                            <input type="email" className="w3-input w3-border w3-white" placeholder="Email Address" name="email"/>
+                            <input type="email" className="w3-input w3-border w3-white" placeholder="Email Address" name="email" required/>
                         </div>
                        
                         <div>
-                            <input type="text" className="w3-input w3-border w3-white" placeholder="Phone Number" name="phone"/>
+                            <input type="text" className="w3-input w3-border w3-white" placeholder="Phone Number" name="phone" required/>
                         </div>
                         <div>
-                            <input type="text" className="w3-input w3-border w3-white w3-transparent" placeholder="Contry" name="contry"/>
+                            <input type="text" className="w3-input w3-border w3-white w3-transparent" placeholder="Contry" name="contry" required/>
                         </div>
                         <div>
-                            <input type="text" className="w3-input w3-border w3-white w3-transparent" placeholder="City" name="city"/>
+                            <input type="text" className="w3-input w3-border w3-white w3-transparent" placeholder="City" name="city" required/>
                         </div>
                         <div>
-                            <input type="text" className="w3-input w3-border w3-white w3-transparent" placeholder="Street" name="street"/>
+                            <input type="text" className="w3-input w3-border w3-white w3-transparent" placeholder="Street" name="street" required/>
                         </div>
                         <div>
-                            <input type="text" className="w3-input w3-border w3-white w3-transparent" placeholder="postal code" name="postal"/>
+                            <input type="text" className="w3-input w3-border w3-white w3-transparent" placeholder="postal code" name="postal" required/>
                         </div>
                         <div >
                             <input type="submit" className="w3-btn" value="Send Message" class="w3-border w3-round w3-blue" ></input>

@@ -4,7 +4,6 @@ import ProductItem from '../utils/productItem/ProductItem'
 import Loading from '../utils/loading/Loading'
 import axios from 'axios'
 import Filters from './Filters'
-import LoadMore from './LoadMore'
 import Fade from 'react-reveal/Fade'
 import FilterCategory from './CategoryFilter'
 
@@ -81,7 +80,7 @@ function Products() {
             } 
         </div></Fade>  
 
-        <LoadMore />
+        
         {products.length === 0 && <Loading />}
         </>
     )
