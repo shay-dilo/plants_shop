@@ -13,6 +13,7 @@ import { fontStyle, style } from '@mui/system';
 import { Link } from 'react-router-dom'
 import Container from '@mui/material/Container';
 import Toolbar from '@mui/material/Toolbar';
+// import wood from './assets/woodsticks.jpeg'
 // import HomeCard from './HomeCard';
 
 
@@ -23,7 +24,7 @@ const images = [
   {
     label: 'Design Accessories',
     imgPath:
-      'https://download.hipwallpaper.com/desktop/1366/768/52/81/b1e084.jpg',
+      'https://cdn.hipwallpaper.com/i/56/59/Neb19h.jpg',
   },
   {
     label: 'Wild Plants',
