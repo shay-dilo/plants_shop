@@ -29,7 +29,7 @@ const images = [
   {
     label: 'Wild Plants',
     imgPath:
-      'https://download.hipwallpaper.com/desktop/1366/768/7/46/Z3M9B1.jpg',
+      'https://download.hipwallpaper.com/desktop/1440/900/19/33/gPpw9m.jpg',
   },
   {
     label: 'Help You Create Wild Patios',
@@ -39,7 +39,7 @@ const images = [
   {
     label: 'For Every-one Plants',
     imgPath:
-      'https://download.hipwallpaper.com/desktop/1366/768/42/89/lyIDug.jpg',
+      'https://download.hipwallpaper.com/tablet/2560/1700/52/81/b1e084.jpg',
   },
 ];
 //
