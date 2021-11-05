@@ -1,6 +1,7 @@
 import React, { useContext, useState } from 'react'
 import { GlobalState } from '../../GlobalState'
 import Menu from './icon/menu.svg'
+import MenuIcon from '@mui/icons-material/Menu';
 import Close from './icon/close.svg'
 import Cart from './icon/cart.svg'
 import { Link } from 'react-router-dom'
@@ -52,7 +53,7 @@ function Header() {
             <img src={plants} alt="Avatar Logo" style={{ width: '40px' }} class="rounded-pill" />
 
             <div className="menu" onClick={() => setMenu(!menu)}>
-                <img src={Menu} alt="" width="30" />
+                <img src={Menu} alt="" width="20" color="white" />
             </div>
 
             <div className="logo">
@@ -73,7 +74,7 @@ function Header() {
                 }
 
                 <li onClick={() => setMenu(!menu)}>
-                    <img src={Close} alt="" width="30" className="menu" />
+                    <img src={Close} alt="" width="40" className="menu" />
                 </li>
 
             </ul>

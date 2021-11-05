@@ -1,3 +1,4 @@
+import { borderColor } from '@mui/system';
 import * as React from 'react';
 
 // import Container from '@mui/material/Container';
@@ -6,24 +7,25 @@ import styled from 'styled-components'
 
 
 const Wrapper = styled.div`
-
-height:100vh;
-
+height:100%;
+padding: 1px;
 display:grid;
-grid-template-columns: 0.3fr 0.7fr;
+gap:1rem;
+grid-template-columns:repeat(auto-fit, minmax(320px, 1fr));
 `
 
 const Left = styled.div`
-padding:20px;
-
-
+padding:10px;
 display:grid;
-grid-template-rows: 1fr 1fr 1fr;
-grid-row-gap: 30px;
+grid-template-rows: 0.3fr 0.3fr 0.1fr;
+grid-row-gap: 1px;
 `
 
 
 const Right = styled.div`
+
+
+floating:right;
 padding:20px;
 display:grid;
 grid-template-rows: min-content auto;
@@ -31,27 +33,29 @@ grid-row-gap: 30px;
 `
 
 const Container = styled.div`
+
+
+display: flex;
 display:grid;
 grid-template-rows: max-content auto;
 grid-row-gap:10px;
 justify-content: flex-start;
 `
 
-
-const SectionTitle = ({ text }) => <h3 style={{ color: 'blue' }}>{text}</h3>
+const SectionTitle = ({ text }) => <h2 style={{ color: 'black' }}>{text}</h2>
 
 
 
 const ProfileContainer = () => <Container>
     <SectionTitle text='Profile' />
-    <p style={{ color: 'white' }}>
+    <p style={{ fontSize: '1.2em', color: 'white' }}>
         An honest and reliable worker, I excel at juggling many responsibilities and problem-solving while maintaining excellent interpersonal skills. Always eager to learn new things, I take what I have been taught and determine how to best apply it.
     </p>
 </Container>
 
 const ContactContainer = () => <Container>
     <SectionTitle text='Contact' />
-    <ul style={{ color: 'white' }}>
+    <ul style={{ fontSize: '1.5em', color: 'white' }}>
         <li>
             PHONE:  +972549955695
         </li>
@@ -60,13 +64,14 @@ const ContactContainer = () => <Container>
         </li>
         <li>
             EMAIL: shaydilouya@yahoo.com
+            EMAIL2: shaydilouya@gmail.com
         </li>
     </ul>
 </Container>
 
 const LanguagesContainer = () => <Container>
     <SectionTitle text='Languages' />
-    <ul style={{ color: 'white' }}>
+    <ul style={{ fontSize: '1.4em', color: 'white' }}>
         <li>
             Hebrew (Native)
         </li>
@@ -82,7 +87,7 @@ const LanguagesContainer = () => <Container>
     </ul>
 </Container>
 
-const WorkContainer = () => <Container style={{ color: 'white' }}>
+const WorkContainer = () => <Container style={{ fontSize: '1.2em', color: 'white' }}>
     <SectionTitle text='Work Experience' />
     <p>
         Payton Planar Magnetics (www.paytongroup.com), Global Leader for Planar Transformers-
@@ -97,24 +102,36 @@ const WorkContainer = () => <Container style={{ color: 'white' }}>
 </Container>
 const EducationContainer = () => <Container>
     <SectionTitle text='Education' />
-    <div style={{ color: 'white' }}>
-        <strong>Tel Hai Academic College</strong><br /><br />
-        <div>2012 - 2016</div><br />
-        <p>Bachelor’s Degree - Double major in East Asia Studies and Economics and Management</p>
+    <div style={{ fontSize: '1.2em', color: 'white' }}>
+        <u >Tel Hai Academic College - 2012 - 2016</u><br />
+        <p>Bachelor’s Degree - Double major in East Asia Studies and Economics and Management</p><br />
+        <u>Courses and Certifications</u><br />
+        <ul style={{ fontSize: '1.1em', color: 'white' }}>
+            <li>
+                - Internal Quality Auditor for IATF16949:2016 (Automotive Industry) – The Standards Institution of Israel, July 2018        </li>
+            <li>
+                - Lead Quality Auditor for ISO9001:2015 – The Standards Institution of Israel, February 2018        </li>
+            <li>
+                - Chinese HSK3 Course – Sichuan Normal University Chengdu College, 2015        </li>
+            <li>
+                - Chinese HSK4 Course – Sichuan Normal University Chengdu College, 2016        </li>
+        </ul>
+
+        <div></div><br />
     </div>
 </Container>
 
 export const AboutUs2 = () => {
     return (
-        <Wrapper>
+        <Wrapper style={{ boxSizing: "borderbox" }}>
             <Left>
+                <EducationContainer />
                 <ProfileContainer />
-                <ContactContainer />
                 <LanguagesContainer />
             </Left>
             <Right>
-                <EducationContainer />
                 <WorkContainer />
+                <ContactContainer />
             </Right>
         </Wrapper>
     )

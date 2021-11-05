@@ -34,7 +34,7 @@ const images = [
   {
     label: 'Help You Create Wild Patios',
     imgPath:
-      'https://download.hipwallpaper.com/desktop/1366/768/2/97/VKDC23.jpg',
+      'https://download.hipwallpaper.com/desktop/1366/768/61/67/jdY6E9.jpg',
   },
   {
     label: 'For Every-one Plants',

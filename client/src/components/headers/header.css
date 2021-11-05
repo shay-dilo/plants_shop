@@ -24,6 +24,7 @@ header a{
     color: rgb(255, 255, 255);
 }
 header ul li{
+    text-align: right;
     display: inline-block;
     opacity: 0.7;
     padding: 0 20px;
@@ -35,6 +36,7 @@ header ul li:hover{
 }
 .menu{
     display: none;
+    color: white;
 }
 .cart-icon{
     position: relative;
