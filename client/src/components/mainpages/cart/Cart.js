@@ -106,7 +106,7 @@ function Cart() {
                 ))
             }
             
- <a style={{backgroundColor:'white', marginTop:'3px' , marginBottom:'60px',fontSize:'60px', color:'green'}} > Total={total}</a>
+ <a style={{backgroundColor:'white', marginTop:'3px' , height:'90px',fontSize:'60px', color:'green'}} > Total={total}</a>
  <button className="products" style={{fontSize:'40px', marginTop:'30px' }} class="w3-border w3-round w3-green w3-large"><Link to="/OrderContinue" >
         <ArrowBackIcon style={{fontSize:'15px'}}/>Complete your order </Link></button>
       

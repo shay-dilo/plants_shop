@@ -53,7 +53,7 @@ function Header() {
             <img src={plants} alt="Avatar Logo" style={{ width: '40px' }} class="rounded-pill" />
 
             <div className="menu" onClick={() => setMenu(!menu)}>
-                <img src={Menu} alt="" width="20" color="white" />
+                <img src={Menu} alt="" width="36"  color="white" />
             </div>
 
             <div className="logo">
@@ -74,7 +74,7 @@ function Header() {
                 }
 
                 <li onClick={() => setMenu(!menu)}>
-                    <img src={Close} alt="" width="40" className="menu" />
+                    <img src={Close} alt="" width="40"  className="menu" />
                 </li>
 
             </ul>
