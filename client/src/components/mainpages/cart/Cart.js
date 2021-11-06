@@ -9,7 +9,8 @@ import React, {useContext, useState, useEffect} from 'react'
 import {GlobalState} from '../../../GlobalState'
 
 import {Link} from 'react-router-dom'
-import { green } from '@mui/material/colors';
+import { padding } from '@mui/system';
+// import { green } from '@mui/material/colors';
 
 function Cart() {
     const state = useContext(GlobalState)
@@ -67,18 +68,17 @@ function Cart() {
         <>
 <div>
     <div>
-        <button className="products" style={{fontSize:'40px'}} class="w3-border w3-round w3-blue w3-large"><Link to="/OrderContinue" >
-        <ArrowBackIcon style={{fontSize:'10px'}}/> <ArrowBackIcon style={{fontSize:'10px'}}/> <ArrowBackIcon style={{fontSize:'10px'}}/>Complete your order </Link></button>
-       <a style={{marginTop:'25px',fontSize:'30px', color:'green'}} > Total={total}</a>
+       
        </div>
         <div className="products">
            {
                 cart.map(product => (
-                    <Card className="product_card1" sx={{ minHeight: 355, maxWidth: 355 , marginTop:2}} key={product._id}>
+                    <Card padding="20px" className="product_card1"  key={product._id}>
                         <div className="delete" style={{position:'static'}}
                                         onClick={() => removeProduct(product._id)}>
                                         <DeleteForeverRoundedIcon/></div>
                             <CardMedia
+                            padding="20px"
                             position="center"
                                 component="img"
                                 height="250"
@@ -105,7 +105,11 @@ function Cart() {
                     </Card>
                 ))
             }
-
+            
+ <a style={{backgroundColor:'white', marginTop:'3px' , marginBottom:'60px',fontSize:'60px', color:'green'}} > Total={total}</a>
+ <button className="products" style={{fontSize:'40px', marginTop:'30px' }} class="w3-border w3-round w3-green w3-large"><Link to="/OrderContinue" >
+        <ArrowBackIcon style={{fontSize:'15px'}}/>Complete your order </Link></button>
+      
 
 
 

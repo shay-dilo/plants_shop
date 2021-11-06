@@ -33,7 +33,7 @@ function OrderHistory() {
         <div className="history-page">
             <h2>History</h2>
 
-            <h4>You have {history.length} ordered</h4>
+            <h4 style={{color:'white'}}>You have {history.length} ordered</h4>
 
             <table>
                 <thead>
@@ -47,8 +47,8 @@ function OrderHistory() {
                     {
                         history.map(items => (
                             <tr key={items._id}>
-                                <td>{items.paymentID}</td>
-                                <td>{new Date(items.createdAt).toLocaleDateString()}</td>
+                                <td style={{color:'white'}}>{items.paymentID}</td>
+                                <td style={{color:'white'}}>{new Date(items.createdAt).toLocaleDateString()}</td>
                                 <td><Link to={`/history/${items._id}`}>View</Link></td>
                             </tr>
                         ))

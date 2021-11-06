@@ -105,7 +105,7 @@ function Home() {
         </AutoPlaySwipeableViews  >
       </Link>
       <MobileStepper
-      
+
         steps={maxSteps}
         position="static"
         activeStep={activeStep}
@@ -134,8 +134,8 @@ function Home() {
           </Button>
         }
       />
-      <h3 style={{color:'white'}}>WELCOME TO Shay's Big Plants Shop!</h3>
-      <h6 style={{color:'white'}}>A local, family owned business like no other in Tel-Aviv. For more than 45 years
+      <h3 style={{ color: 'white' }}>WELCOME TO Shay's Big Plants Shop!</h3>
+      <h6 style={{ color: 'white' }}>A local, family owned business like no other in Tel-Aviv. For more than 45 years
         we have brought the largest variety of premium indoor plants to the Tel-Aviv area. Our inventory changes constantly,
         but you’ll always find large green palms, ficus and fiddle leaf figs, colorful foliage plants
         such as crotons and bromeliads and blooming plants, including the largest variety of vibrant orchids in our community.
