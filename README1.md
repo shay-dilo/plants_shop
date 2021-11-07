@@ -1,36 +1,49 @@
-# MERN Stack - Ecommerce
-> Ecommerce website built with the MERN stack with React Context API for state management, pure CSS for style
+Deae Eyal,
 
-## Demo: https://devat-ecommerce.herokuapp.com/
+I made up a shop for plants, there are still many things to work about , but ill do it in the future .
 
-## Author: Dev AT
-## Youtube tutorials: https://youtu.be/AjItjNc0bHA
+*technology list:
 
-## Install dependencies for server 
-### `npm install`
+-html.
+-css.
+-emailJs.
+-javaScript.
+-reactJs.
+-react material ui.
+-mongodb.
+-nodeJs.
+-github.
 
-## Install dependencies for client
-### cd client ---> `npm install`
+heroku: https://shaysplantsshop.herokuapp.com
 
-## Connect to your mongodb and add info in .env
+in order to run the app:
+first, not that i ziped the files without nodemoduls so please make sure that u install it on the back side and on the client side.
 
-## Add your paypal client id in client/src/components/mainpages/cart/PaypalButton.js
+1. open first terminal.
+2. type: "nodemon server.js".
+3. open second terminal.
+4. type: "cd client".
+5. type: "npm start".
 
-## Run the client & server with concurrently
-### `npm run dev`
+when the app is on the run:
 
-## Run the Express server only
-### `npm run server`
+in order to buy:
+press on the "Login+Register" button
 
-## Run the React client only
-### `npm run client`
+log in as user:
+Email: user1
+password: 12345678
 
-### Server runs on http://localhost:5000 and client on http://localhost:3000
+paypal account details: 
+Email:sb-nclo28289756@business.example.com
+password: Rl"e:?h8  
 
-### User interface 
+comments:
+-U can add your Email and get a replay Email back from the shop.
+-in the "contact us" page , when you send an Email, I will get it to my Email account
+  
 
-![alt](https://res.cloudinary.com/devatchannel/image/upload/v1599568147/test/1_pe9ism.png)
+if anything is missing or somthing you dont understand , please let me know. 
 
-### Admin interface 
-
-![alt](https://res.cloudinary.com/devatchannel/image/upload/v1599568148/test/2_obw2r7.png)
+thanks for everithing!
+Shay Dilouya
