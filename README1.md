@@ -17,7 +17,6 @@ I made up a shop for plants, there are still many things to work about , but ill
 heroku: https://shaysplantsshop.herokuapp.com
 
 in order to run the app:
-first, not that i ziped the files without nodemoduls so please make sure that u install it on the back side and on the client side.
 
 1. open first terminal.
 2. type: "nodemon server.js".
